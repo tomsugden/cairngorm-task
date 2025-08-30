@@ -1,6 +1,6 @@
 # Cairngorm Task
 
-This is a personal copy of a small open-source library I developed as part of the Cairngorm framework while working for Adobe around 2007-2010. It is long obsolete, but at the time of development provided a clean, declarative approach for bootstrapping Adobe Flex applications. In fact, it was used in several of the larger Flex implementations of this period.
+This is a personal copy of a small open-source library I developed as part of the Cairngorm framework while working for Adobe around 2007-2010. It is long obsolete, but at the time of development provided a clean, declarative approach for bootstrapping Adobe Flex applications. It was used in several of the larger Flex implementations of this period.
 
 For context, this was a time when web browsers were no where near as capable as today. Even playing a video required a plugin! These limitations created space for so-called "Rich Internet Applications" or RIAs, developed using Adobe Flex that compiled into SWF files that ran inside the Flash Player browser plugin, or on the desktop with Adobe AIR. These RIAs were visually rich and interactive, with fancy graphical effects, realtime streaming data, and other capabilities that would eventually become possible with open web standards.
 
