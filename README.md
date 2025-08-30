@@ -38,7 +38,6 @@ Here is this example task declared in MXML with the Cairngorm Task library:
   </task:ParallelTask>
 </task:SequenceTask>
 ```
-```
 
 When expressed in MXML, a task can be self-documenting. The above example declares a sequence that begins with the `LoadUserProfile` work-item. When the user profile has been fetched, the LoadNews and LoadContacts task-items will begin in parallel. Then when they have both completed, the loading of a number of modules and style-sheets commences. When those have completed the entire task is complete.
 
