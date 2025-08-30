@@ -1,0 +1,11 @@
+# Cairngorm Task
+
+This is a personal copy of a small open-source library I developed as part of the Cairngorm framework while working for Adobe around 2007-2010. It is long obsolete, but at the time of development provided a clean, declarative approach for bootstrapping Adobe Flex applications. In fact, it was used in several of the larger Flex implementations of this period.
+
+For context, this was a time when web browsers were nowhere near as capable as today. Even playing a video required a plugin! These limitations created space for so-called "Rich Internet Applications" or RIAs, developed using Adobe Flex that compiled into SWF files that ran inside the Flash Player browser plugin, or on the desktop with Adobe AIR. These RIAs were visually rich and interactive, with fancy graphical effects, realtime streaming data, and other capabilities that would eventually become possible with open web standards.
+
+It's well known that Steve Jobs "killed" Adobe Flash Player by disallowing it on the iPhone, and soon afterwards Adobe would divest and refocus their efforts on the web platform. And while he was certainly correct that Flash Player was a battery hog and didn't have a great track-record for security, it shouldn't be forgotten that this platform fostered a great deal of creativity and innovation thanks to a vibrant community of designers and developers.
+
+Back to Cairngorm. It was originally an MVC framework developed by Iteration2, an Edinburgh-based consultancy that specialized in Rich Internet Applications. The founders, Steven Webster and Alistair McLeod, had written the book on Flex. I joined them shortly after their acquisition by Adobe. Over the years, Cairngorm evolved from a simple MVC framework into a broader collection of libraries and best-practice guidance for building complex applications. 
+
+The Cairngorm Task library was one of my contributions. It provided a way to create reusable tasks for common purposes, such as loading a module or fetching some data, and then composing these tasks into sequences and parallel flows using MXML. The declarative approach was clean and intuitive, and sat neatly alongside the declarative user-interface composition of Flex.
