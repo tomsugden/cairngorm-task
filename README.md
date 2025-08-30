@@ -49,10 +49,10 @@ parallel1.addChild(new LoadNews());
 parallel1.addChild(new LoadContacts());
 
 var parallel2:ParallelTask=new ParallelTask();
-parallel2.addChild(new LoadModule("http://domaina/ModuleA.swf"));
-parallel2.addChild(new LoadModule("http://domaina/ModuleB.swf"));
-parallel2.addChild(new LoadStylesheet("http://domaina/ModuleAStyles.swf"));
-parallel2.addChild(new LoadStylesheet("http://domaina/ModuleBStyles.swf"));
+parallel2.addChild(new LoadModule("ModuleA.swf"));
+parallel2.addChild(new LoadModule("ModuleB.swf"));
+parallel2.addChild(new LoadStylesheet("ModuleAStyles.swf"));
+parallel2.addChild(new LoadStylesheet("ModuleBStyles.swf"));
 
 var task:SequenceTask=new SequenceTask();
 task.addChild(new LoadUserProfile());
